@@ -15,7 +15,7 @@ botStart = time.time()
 
 whitelist = ["ucb72ccefed623f35d8370f38857f93ae"]
 
-cl = LINE("ELC3RSJTQQDNZGV3gfx4.mnax45a+TlweQuRUBLYffa.f9d31tqaaIRBs+QaYqrH5o+MzDTHYVtYq2r3KZfRkIE=")
+cl = LINE()
 #cl = LINE("TOKEN")
 #cl = LINE("Email","Password")
 #cl = LINE()

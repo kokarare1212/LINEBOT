@@ -23,8 +23,8 @@ cl.log("認証トークン : " + str(cl.authToken))
 channelToken = cl.getChannelResult()
 cl.log("チャンネルトークン : " + str(channelToken))
 
-readOpen = codecs.open("read.json","r","utf-8")
-settingsOpen = codecs.open("temp.json","r","utf-8")
+readOpen = codecs.open("read.json","r",encoding="utf-8")
+settingsOpen = codecs.open("temp.json","r",encoding="utf-8")
 
 clMID = cl.profile.mid
 clProfile = cl.getProfile()
